@@ -8,6 +8,10 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+body p {
+  font-weight: 500;
+}
+
 .wr-nav {
   background-color: #304FFE;
   color: #ffffff;
@@ -19,7 +23,11 @@ body {
 
 .wr-con1 {
   margin-top: 56px;
-  background-image: linear-gradient(to bottom, #F47B00 50%, #304FFE 50%);
+  background-image: url(../../imgs/Background_Home.jpg);
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .wr-con1 .wr-con1-col1 {
@@ -47,7 +55,7 @@ body {
 }
 
 .wr-con1 .wr-con1-col1 p {
-  color: #ffffff;
+  color: #000000;
 }
 
 .wr-con1 .wr-con1-col2 {
@@ -55,7 +63,7 @@ body {
 }
 
 .wr-con1 .wr-con1-col2 .carousel {
-  box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.5);
+  box-shadow: -6px 8px 5px 0px rgba(0, 0, 0, 0.5);
 }
 
 .wr-con1 .wr-con1-col2 .carousel-indicators li {
@@ -90,4 +98,38 @@ body {
   color: #000000;
   position: absolute;
   margin: 20px -17px;
+}
+
+.wr-con1 .wr-con1-col2 .carousel-item img {
+  filter: contrast(2);
+}
+
+@media screen and (max-width: 450px) {
+  .wr-con1 .wr-con1-col1 .container {
+    margin: 0 !important;
+  }
+  .wr-con1 .wr-con1-col1 .container h2 {
+    font-size: 50px !important;
+    margin: 40px 0 !important;
+  }
+  .wr-con1 .wr-con1-col2 {
+    margin: 20px 0px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .wr-con1 .container {
+    margin: 114px 0px !important;
+  }
+  .wr-con1 .container h2 {
+    font-size: 40px !important;
+    margin-top: 0 !important;
+    margin-bottom: .5rem !important;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .wr-con1 h2 {
+    font-size: 50px !important;
+  }
 }
