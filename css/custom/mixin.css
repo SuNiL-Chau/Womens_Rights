@@ -1,0 +1,12 @@
+@media screen and (max-width: 450px) {
+  .wr-con1-col1 .container {
+    margin: 0 !important;
+  }
+  .wr-con1-col1 .container h2 {
+    font-size: 50px !important;
+    margin: 40px 0 !important;
+  }
+  .wr-con1-col2 {
+    margin: 20px 0px !important;
+  }
+}

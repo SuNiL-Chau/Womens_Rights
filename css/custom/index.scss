@@ -1,20 +1,26 @@
+// Variables
 $blue: #304FFE;
 $orange: #F47B00;
 $yellow: #FFAC42;
 $purple: #7A7CFF;
 $shadow: 5px 0px 10px rgba(0, 0, 0, 0.5);
+$font: 'Montserrat', sans-serif;
 
+// all margin padding to 0
 *{
     margin: 0;
     padding: 0;
 }
 
+// font
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+// body
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: $font;
 }
 
+// Navigation
 .wr-nav {
     background-color: $blue;
     color: #ffffff;
@@ -24,10 +30,10 @@ body {
     }
 }
 
+// Container 1
 .wr-con1{
     margin-top: 56px;
     background-image: linear-gradient(to bottom, $orange 50%, $blue 50%);
-    height: 700px;
     .wr-con1-col1{
         margin: 0px 0px;
         .container{
@@ -53,6 +59,9 @@ body {
     }
     .wr-con1-col2{
         margin: 121px 0px;
+        .carousel {
+            box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.5);
+        }
         .carousel-indicators li{
             width: 20px;
             height: 20px;
@@ -88,3 +97,5 @@ body {
         }
     }
 }
+
+// Container 2

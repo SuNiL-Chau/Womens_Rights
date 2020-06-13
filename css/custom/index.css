@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .wr-nav {
@@ -20,7 +20,6 @@ body {
 .wr-con1 {
   margin-top: 56px;
   background-image: linear-gradient(to bottom, #F47B00 50%, #304FFE 50%);
-  height: 700px;
 }
 
 .wr-con1 .wr-con1-col1 {
@@ -53,6 +52,10 @@ body {
 
 .wr-con1 .wr-con1-col2 {
   margin: 121px 0px;
+}
+
+.wr-con1 .wr-con1-col2 .carousel {
+  box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.5);
 }
 
 .wr-con1 .wr-con1-col2 .carousel-indicators li {
