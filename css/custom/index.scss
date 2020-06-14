@@ -3,7 +3,8 @@ $blue: #304FFE;
 $orange: #F47B00;
 $yellow: #FFAC42;
 $purple: #7A7CFF;
-$shadow: 5px 0px 10px rgba(0, 0, 0, 0.5);
+$bx-shadow: 3px -3px 10px 0px rgba(0,0,0,0.5);
+$txt-shadow: 2px -2px 5px rgba(255, 255, 255, 0.5);
 $font: 'Montserrat', sans-serif;
 $mobile: 450px;
 $tab-pro: 1024px;
@@ -42,6 +43,16 @@ body {
     font-family: $font;
     p {
         font-weight: 500;
+        line-height: 2rem;
+    }
+    mark{
+        background-image: linear-gradient(to right, $yellow, $orange);
+        color: $purple;
+        border-radius: 5px;
+        font-weight: 600;
+        padding: 4px 4px;
+        box-shadow: $bx-shadow;
+        text-shadow: $txt-shadow;
     }
 }
 
@@ -77,8 +88,7 @@ body {
             font-size: 60px;
             text-transform: uppercase;
             mark{
-                background-color: #ffffff;
-                color: $orange;
+                color: $purple;
                 padding: 0 10px;
                 border-radius: 10px;
             }
@@ -157,6 +167,7 @@ body {
     @include tab-pro() {
         h2 {
             font-size: 50px !important;
+            margin: 15px 0 !important;
         }
     }
 
