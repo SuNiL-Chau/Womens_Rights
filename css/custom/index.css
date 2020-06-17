@@ -225,3 +225,60 @@ body .author {
     padding-top: 45px !important;
   }
 }
+
+.wr-con3 .wr-col-1 {
+  background-color: #FFAC42;
+}
+
+.wr-con3 .wr-col-1 .wr-frm {
+  padding: 90px 80px;
+}
+
+.wr-con3 .wr-col-1 .wr-frm .wr-btn {
+  background-color: #304FFE;
+  color: #ffffff;
+}
+
+.wr-con3 .wr-col-1 .wr-frm .wr-btn .wr-mail-vec {
+  padding-left: 10px;
+}
+
+.wr-con3 .wr-col-2 {
+  background-color: #7A7CFF;
+  box-shadow: inset 3px -3px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.wr-con3 .form-control:focus {
+  border-color: #304FFE !important;
+  box-shadow: 0 0 0 0.2rem rgba(48, 79, 254, 0.4) !important;
+}
+
+@media screen and (max-width: 450px) {
+  .wr-con3 .wr-col-1 .wr-frm {
+    padding: 60px 50px !important;
+  }
+  .wr-con3 .wr-col-2 {
+    box-shadow: inset 0px 3px 10px 0px rgba(0, 0, 0, 0.5) !important;
+  }
+  .wr-con3 .wr-col-2 img {
+    margin: 0 !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .wr-con3 .wr-frm {
+    padding: 60px 20px !important;
+  }
+  .wr-con3 .wr-col-2 img {
+    margin: 110px 0;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .wr-con3 .wr-frm {
+    padding: 60px 50px;
+  }
+  .wr-con3 .wr-col-2 img {
+    margin: 90px 0px;
+  }
+}

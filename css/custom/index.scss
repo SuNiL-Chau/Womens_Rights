@@ -246,3 +246,57 @@ body {
         }
     }
 }
+
+// Container 3
+
+.wr-con3{
+    .wr-col-1{
+        background-color: $yellow;
+        .wr-frm{
+            padding: 90px 80px;
+            .wr-btn{
+                background-color: $blue;
+                color: #ffffff;
+
+                .wr-mail-vec{
+                    padding-left: 10px;
+                }
+            }
+        }
+    }
+    .wr-col-2{
+        background-color: $purple;
+        box-shadow: inset $bx-shadow;
+    }
+    .form-control:focus{
+        border-color: $blue !important;
+        box-shadow: 0 0 0 0.2rem rgba(48, 79, 254, 0.40) !important;
+    }
+    @include mobile(){
+        .wr-col-1 .wr-frm{
+            padding: 60px 50px !important;
+        }
+        .wr-col-2{
+            box-shadow: inset 0px 3px 10px 0px rgba(0,0,0,0.5) !important;
+            img{
+                margin: 0 !important;
+            }
+        }
+    }
+    @include tab(){
+        .wr-frm{
+            padding: 60px 20px !important;
+        }
+        .wr-col-2 img{
+            margin: 110px 0;
+        }
+    }
+    @include tab-pro(){
+        .wr-frm{
+            padding: 60px 50px;
+        }
+        .wr-col-2 img{
+            margin: 90px 0px;
+        }
+    }
+}
