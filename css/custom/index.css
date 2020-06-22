@@ -161,6 +161,7 @@ body .author {
 
 .wr-con2 .abt_img {
   padding: 56px 44px;
+  width: 440px;
 }
 
 .wr-con2 .wr-con2-col2 .wr-con2-col2-con1 {
@@ -241,6 +242,10 @@ body .author {
 
 .wr-con3 .wr-col-1 .wr-frm .wr-btn .wr-mail-vec {
   padding-left: 10px;
+}
+
+.wr-con3 .wr-col-1 .wr-frm .wr-btn .wr-mail-vec img {
+  width: 20px;
 }
 
 .wr-con3 .wr-col-2 {
