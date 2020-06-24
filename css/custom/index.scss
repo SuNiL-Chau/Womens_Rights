@@ -304,3 +304,68 @@ body {
         }
     }
 }
+
+.wr-con4{
+    background-color: linear-gradient(112.62deg, #F1F1F1 0%, #D6D6D6 97.92%);
+    padding: 20px;
+    :any-link{
+        color: $blue;
+    }
+    
+    .wr-con4-row1{
+        font-weight: 600;
+        .wr-margin{
+            margin-right: 30px;
+            margin-left: 30px;
+            margin-top: 30px;
+            margin-bottom: 10px;
+        }
+        .wr-btn{
+            background-image: linear-gradient(180deg, $yellow, $orange);
+            box-shadow: 0 0 10px 1px rgba(0,0,0,0.5);
+            border: 2px solid #ffffff;
+            border-radius: 8px;
+            font-weight: 600;
+            text-shadow: $txt-shadow;
+        }
+    }
+
+    .wr-hr{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        border: 0;
+        border-top: 2px solid $orange;
+    }
+
+    .wr-con4-row2{
+        .wr-margin-2{
+            margin-right: 20px;
+            margin-left: 20px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+        }
+    }
+
+    .wr-con4-row3{
+        p{
+            margin: 10px;
+        }
+    }
+
+    @include tab(){
+        .wr-margin{
+            margin-right: 15px !important;
+            margin-left: 15px !important;
+        }
+    }
+    @include mobile(){
+        .wr-con4-row1{
+            .wr-margin{
+                margin-right: 30px !important;
+                margin-left: 30px !important;
+                margin-top: 15px !important;
+                margin-bottom: 15px !important;
+            }
+        }
+    }
+}
