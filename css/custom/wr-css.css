@@ -19,11 +19,13 @@ body {
 }
 
 .wr-sec1 {
+  margin-top: 56px;
   background-image: url("../../imgs/landing/landing_Bg_1.jpg");
+  background-position: center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
-  width: 100%;
-  height: auto;
+  background-color: #0336FF;
 }
 
 .wr-sec1 .wr-con1-sec1 {
@@ -69,6 +71,15 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+  .wr-sec1 .wr-con1-sec1 {
+    padding: 40px !important;
+  }
+  .wr-sec1 .wr-sec1-col2 p {
+    width: auto !important;
+  }
+}
+
+@media screen and (max-width: 1024px) {
   .wr-sec1 .wr-sec1-col2 p {
     width: auto !important;
   }
