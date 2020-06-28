@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+$font: 'Roboto', sans-serif;
+$white: #fff;
+$black: #000;
+$blue-1: #0336FF;
+$blue-2: #335CFF;
+$blue-3: linear-gradient(141.13deg, rgba(92, 125, 255, 0.5) 0%, #2E58FF 76.56%);
+$yellow: #FFDE03;
+$mobile: 450px;
+$tab-pro: 1024px;
+$tab: 768px;
+@mixin mobile {
+    @media screen and (max-width: #{$mobile}) {
+        @content;
+    }
+}
+
+@mixin tab {
+    @media screen and (max-width: #{$tab}) {
+        @content;
+    }
+}
+
+@mixin tab-pro {
+    @media screen and (max-width: #{$tab-pro}) {
+        @content;
+    }
+}
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: $font;
+}
+
+.wr-nav{
+    background-color: $blue-2;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+
+    .navbar-brand {
+        font-weight: 700;
+        color: $yellow;
+    }
+}
+
+.wr-sec1{
+    background-image: url('../../imgs/landing/landing_Bg_1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+
+    .wr-con1-sec1{
+        padding: 190px;
+
+        .wr-sec1-col1, .wr-sec1-col2, .wr-sec1-col2{
+            color: $white;
+            span{
+                color: $yellow;
+            }
+        }
+    
+        .wr-sec1-col2{
+            p{
+                width: 666px;
+                margin: auto;
+                height: auto;
+            }
+        }
+    
+        .wr-sec1-col3{
+            button{
+                margin-top: 20px;
+            }
+            .wr-outline-btn{
+                border: 2px solid $yellow;
+                background-color: none;
+                color: $yellow;
+                border-radius: 12px;
+                padding: 6px 20px;
+                font-weight: 600;
+                &:hover{
+                    background-color: $yellow;
+                    color: $black;
+                }
+            }
+        }
+    }
+
+    @include mobile(){
+        .wr-con1-sec1{
+            padding: 0 !important;
+        }
+    }
+
+}
