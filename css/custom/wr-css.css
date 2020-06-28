@@ -67,3 +67,9 @@ body {
     padding: 0 !important;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .wr-sec1 .wr-sec1-col2 p {
+    width: auto !important;
+  }
+}

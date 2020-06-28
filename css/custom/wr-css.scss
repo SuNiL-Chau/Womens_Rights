@@ -97,4 +97,12 @@ body{
         }
     }
 
+    @include tab(){
+        .wr-sec1-col2{
+            p{
+                width: auto !important;
+            }
+        }
+    }
+
 }
