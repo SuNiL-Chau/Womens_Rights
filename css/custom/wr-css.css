@@ -165,6 +165,6 @@ body .wr-sec2, body .wr-sec3 {
 
 @media screen and (max-width: 768px) {
   .wr-sec3 .wr-form {
-    width: 350px !important;
+    width: 300px !important;
   }
 }
