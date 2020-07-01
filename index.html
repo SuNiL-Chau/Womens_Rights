@@ -53,7 +53,84 @@
       </div>
     </div>
   </div>
+
+  <div class="wr-grad-bg">
+    
+    <div class="container-fluid wr-sec2">
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-6 text-center wr-sec2-col1">
+          <img src="./imgs/landing/abt-img.png" alt="My-img" class="img-fluid abt-img">
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-6 wr-sec2-col2 align-self-center">
+          <div class="container wr-sec2-col2-con">
+            <h2>About Us</h2>
+            <p>"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas libero et, ullam, porro ad commodi illum neque laudantium placeat quibusdam, at excepturi odit accusamus? Quidem debitis et cumque aliquid sunt? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo quia possimus rem. Delectus quas velit, quam incidunt officia suscipit eum quia aliquid nisi soluta error dolorem quae ducimus inventore facilis!"</p>
+            <p class="wr-att"><span class="wr-sm-circle"></span>- Sunil Chaudhary</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid wr-sec3">
+      <div class="row">
+        <div class="col-sm-12 col-md-6 col-lg-6 text-center wr-sec3-col1">
+          <img src="./imgs/landing/undraw_online_information_4ui6.svg" alt="woman looking at mails" class="img-fluid" style="width: 520px;">
+        </div>
+        <div class="col-sm-12 col-md-6 col-lg-6 wr-sec3-col2 align-self-center">
+
+          <form action="/mail.php" class="needs-validation mx-auto wr-form">
+            <h2 class="text-center">Contact Us</h2>
+            <div class="form-group">
+              <label for="uname">Name:</label>
+              <input type="text" class="form-control" id="uname" placeholder="Your Name" name="uname" required>
+              <div class="valid-feedback">Valid.</div>
+              <div class="invalid-feedback">Please fill out this field.</div>
+            </div>
+            <div class="form-group">
+              <label for="e-mail">E-mail:</label>
+              <input type="email" class="form-control" id="e-mail" placeholder="Enter your email" name="email" required>
+              <div class="valid-feedback">Valid.</div>
+              <div class="invalid-feedback">Please fill out this field.</div>
+            </div>
+            <div class="form-group">
+              <label for="message">Message:</label>
+              <textarea class="form-control" rows="4" id="msg" placeholder="Your message here" required></textarea>
+            </div>
+            <div class="form-group form-check">
+              <label class="form-check-label">
+                <input class="form-check-input" type="checkbox" name="remember" required>Yes I want to send the message.
+                <div class="valid-feedback">Valid.</div>
+                <div class="invalid-feedback">Check this checkbox to continue.</div>
+              </label>
+            </div>
+            <button type="submit" class="btn wr-btn-secondary">Submit<img src="./imgs/landing/mail_vector.svg" alt="mail svg" class="img-fluid"></button>
+          </form>
+
+        </div>
+      </div>
+    </div>
+
+  </div>
   
+  <script>
+    (function() {
+      'use strict';
+      window.addEventListener('load', function() {
+        // Get the forms we want to add validation styles to
+        var forms = document.getElementsByClassName('needs-validation');
+        // Loop over them and prevent submission
+        var validation = Array.prototype.filter.call(forms, function(form) {
+          form.addEventListener('submit', function(event) {
+            if (form.checkValidity() === false) {
+              event.preventDefault();
+              event.stopPropagation();
+            }
+            form.classList.add('was-validated');
+          }, false);
+        });
+      }, false);
+    })();
+  </script>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <!-- js bs -->

@@ -35,6 +35,10 @@ $tab: 768px;
 
 body{
     font-family: $font;
+    color: $white;
+    h1,h2,h3,h4,h5,h6{
+        font-weight: 700;
+    }
 }
 
 .wr-nav{
@@ -45,6 +49,10 @@ body{
         font-weight: 700;
         color: $yellow;
     }
+}
+
+.wr-grad-bg{
+    background-image: $blue-3;
 }
 
 .wr-sec1{
@@ -82,7 +90,7 @@ body{
                 border: 2px solid $yellow;
                 background-color: none;
                 color: $yellow;
-                border-radius: 12px;
+                border-radius: 8px;
                 padding: 6px 20px;
                 font-weight: 600;
                 &:hover{
@@ -118,4 +126,78 @@ body{
         }
     }
 
+}
+
+.wr-sec2{
+    .wr-sec2-col1{
+        .abt-img{
+            margin-top: 100px;
+            margin-bottom: 100px;
+        }
+    }
+    .wr-sec2-col2-con{
+        h2{
+            color: $yellow;
+        }
+        .wr-att{
+            color: $yellow;
+        }
+        .wr-sm-circle{
+            content: "";
+            position: relative;
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            background-color: $yellow;
+            border-radius: 50%;
+            box-shadow: 0px 0px 10px #FFFFFF;
+            margin-bottom: -5px;
+            margin-right: 10px;
+        }
+    }
+
+    @include mobile(){
+        .wr-sec2-col1{
+            .abt-img{
+                margin-bottom: 70px !important;
+                margin-top: 70px !important;
+            }
+        }
+    }
+}
+
+.wr-sec3{
+    .wr-form{
+        background-color: $white;
+        box-shadow: 0px 0px 20px rgba(0,0,0,0.4);
+        border-radius: 10px;
+        width: 450px;
+        color: $black;
+        height: 530px;
+        padding: 30px;
+        h2{
+            color: $blue-1;
+        }
+        .wr-btn-secondary{
+            background-color: $yellow;
+            padding: 6px 20px;
+            color: $black;
+            border-radius: 8px;
+            img{
+                margin-left: 10px;
+                margin-bottom: 4px;
+            }
+        }
+    }
+
+    @include mobile(){
+        .wr-form{
+            width: 350px !important;
+        }
+    }
+    @include tab(){
+        .wr-form{
+            width: 350px !important;
+        }
+    }
 }
