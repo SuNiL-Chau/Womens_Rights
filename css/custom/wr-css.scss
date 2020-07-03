@@ -60,7 +60,7 @@ body{
 
 .wr-sec1{
     margin-top: 56px;
-    background-image: url('../../imgs/landing/landing_Bg_1.jpg');
+    background-image: url('../../imgs/landing/landing_Bg_1.webp');
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -176,7 +176,7 @@ body{
         border-radius: 10px;
         width: 450px;
         color: $black;
-        height: 530px;
+        height: auto;
         padding: 30px;
         h2{
             color: $blue-1;
@@ -203,4 +203,27 @@ body{
             width: 300px !important;
         }
     }
+}
+
+.wr-footer{
+    .wr-foot-col1{
+        a{
+            color: $white;
+        }
+        h4{
+            color: $yellow;
+        }
+    }
+
+    .wr-foot-col3{
+        a{
+            color: $yellow;
+        }
+    }
+
+    hr{
+        border-top: 2px solid $yellow;
+        width: 90%;
+    }
+
 }
