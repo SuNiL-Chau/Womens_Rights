@@ -1,47 +1,28 @@
 <?php
-if(!isset($_POST['submit']))
-{
-	//This page should not be accessed directly. Need to submit the form.
-	echo "error; you need to submit the form!";
-}
-$name = $_POST['uname'];
-$visitor_email = $_POST['email'];
-$message = $_POST['msg'];
-
-$email_from = $visitor_email;//<== update the email address
-$email_subject = "New Form submission";
-$email_body = "You have received a new message from the user $name.\n". "Here is the message:\n $message".
-
-$to = "sunilthewiseman@gmail.com";//<== update the email address
-$headers = "From: $email_from \r\n";
-$headers = "Reply-To: $visitor_email \r\n";
-//Send the email!
-mail($to,$email_subject,$email_body,$headers);
-//done. redirect to thank-you page.
-header('Location: thank_you.html');
-
-
-// // Function to validate against any email injection attempts
-// function IsInjected($str)
-// {
-//   $injections = array('(\n+)',
-//               '(\r+)',
-//               '(\t+)',
-//               '(%0A+)',
-//               '(%0D+)',
-//               '(%08+)',
-//               '(%09+)'
-//               );
-//   $inject = join('|', $injections);
-//   $inject = "/$inject/i";
-//   if(preg_match($inject,$str))
-//     {
-//     return true;
-//   }
-//   else
-//     {
-//     return false;
-//   }
-// }
-   
-?> 
+    if(isset($_POST['submit']))
+    {
+        $name = $_POST['uname']; // Get Name value from HTML Form
+        $email_id = $_POST['email']; // Get Email Value
+        $msg = $_POST['msg']; // Get Message Value
+         
+        $to = "sunilthewiseman@gmail.com"; // You can change here your Email
+        $subject = "'$name' has submited a form"; // This is your subject
+         
+        // Always set content-type when sending HTML email
+        $headers = "MIME-Version: 1.0" . "\r\n";
+        $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+ 
+        // More headers
+        $headers .= 'From: Admin <sunilthewiseman@gmail.com>' . "\r\n"; // Give an email id on which you want get a reply. User will get a mail from this email id
+         
+        if(mail($to,$subject,$msg,$headers)){
+            // Message if mail has been sent
+            header("Location: ./thank_you.html");
+        }
+ 
+        else{
+            // Message if mail has been not sent
+            header("Location: ./404.html");
+        }
+    }
+?>
