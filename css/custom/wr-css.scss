@@ -235,7 +235,7 @@ body{
     left: 0;
     position: fixed;
     display: block;
-    background-color: #000;
+    background-image: linear-gradient(to bottom, #ffffff, $yellow);
     z-index: 9999;
     text-align: center;
 }
