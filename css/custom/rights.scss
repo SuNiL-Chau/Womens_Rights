@@ -85,16 +85,16 @@ body{
 
     .card-columns{
         padding: 60px 30px;
+        width: min-content;
 
         .card {
-            margin-bottom: 2rem !important;
-            margin-top: 2rem !important;
+            margin: 2rem 1rem;
         }
 
         .wr-card{
             width: 350px;
             border-radius: 12px;
-            box-shadow: $shadow;
+            box-shadow: none;
 
             img{
                 width: 200px;
@@ -112,12 +112,40 @@ body{
                 color: $white;
             }
         }
-
-        .wr-modal .modal-content{
-            background-image: linear-gradient(303.72deg, #335CFF 31.25%, rgba(92, 125, 255, 0.5) 100%);
-            border-radius: 20px;
+        .wr-card:hover{
+            box-shadow: $shadow;
+            transition: 0.5s ease-in-out;
         }
+    }
 
+    .wr-modal .modal-content{
+        background-image: linear-gradient(303.72deg, #335CFF 31.25%, rgba(92, 125, 255, 0.5) 100%);
+        border-radius: 20px;
+        .modal-footer{
+            border-top: 0px !important;
+            .share{
+                margin: 1rem 1.2rem 1rem auto;
+                background-color: $yellow !important;
+                padding: 8px 26px;
+                img{
+                    margin-right: 5px;
+                }
+            }
+        }
+        .modal-header{
+            border-bottom: 0px !important;
+        }
+        .modal-title{
+            border-bottom: 0;
+            img{
+                width: 70px;
+                margin-right: 20px;
+            }
+        }
+        .close{
+            margin: 0rem 0rem 0rem auto !important;
+            opacity: 1 !important;
+        }
     }
 }
 

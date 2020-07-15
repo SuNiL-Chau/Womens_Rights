@@ -60,10 +60,10 @@
   <div class="wr-grad-bg">
     
   <div class="container-fluid wrcards-collection">
-    <div class="card-columns">
+    <div class="card-columns mx-auto">
       <!-- 1 -->
       <div class="wr-card card text-center text-body">
-        <img class="card-img-top img-fluid" src="./imgs/icons/male child.svg" alt="card1-image">
+        <img class="card-img-top img-fluid" src="./imgs/icons/missing.svg" alt="card1-image">
         <hr class="mx-auto">
         <div class="card-body">
           <h4 class="card-title"><?php echo $h1 ?></h4>
@@ -78,8 +78,8 @@
           
             <!-- Modal Header -->
             <div class="modal-header">
-              <h4 class="modal-title"><img src="./imgs/icons/male child.svg" style="width: 100px;" alt="icon"><?php echo $h1 ?></h4>
-              <button type="button" class="close" data-dismiss="modal">&times;</button>
+              <h4 class="modal-title"><img src="./imgs/icons/missing.svg" alt="icon"><?php echo $h1 ?></h4>
+              <button type="button" class="close" data-dismiss="modal"><img src="./imgs/rights/close.svg" alt=""></button>
             </div>
             
             <!-- Modal body -->
@@ -89,7 +89,7 @@
             
             <!-- Modal footer -->
             <div class="modal-footer">
-              <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-warning share" style="font-weight: bold;"><img src="./imgs/rights/share.svg" alt="" style="width: 20px;">Share</button>
             </div>
             
           </div>
@@ -98,132 +98,591 @@
 
       <!-- 2 -->
       <div class="wr-card card text-center text-body">
-        <img class="card-img-top img-fluid" src="./imgs/icons/male child.svg" alt="card1-image">
+        <img class="card-img-top img-fluid" src="./imgs/icons/Dowery Death.svg" alt="card2-image">
         <hr class="mx-auto">
         <div class="card-body">
-          <h4 class="card-title"><?php echo $h1 ?></h4>
-          <button type="button" class="btn wr-btn" data-toggle="modal" data-target="#wrmodal1">Read me</button>
-        </div>
-      </div>
-      <!-- 3 -->
-      <div class="wr-card card text-center text-body">
-        <img class="card-img-top img-fluid" src="./imgs/icons/male child.svg" alt="card1-image">
-        <hr class="mx-auto">
-        <div class="card-body">
-          <h4 class="card-title"><?php echo $h1 ?></h4>
-          <button type="button" class="btn wr-btn" data-toggle="modal" data-target="#wrmodal1">Read me</button>
-        </div>
-      </div>
-      <!-- 4 -->
-      <div class="wr-card card text-center text-body">
-        <img class="card-img-top img-fluid" src="./imgs/icons/male child.svg" alt="card1-image">
-        <hr class="mx-auto">
-        <div class="card-body">
-          <h4 class="card-title"><?php echo $h1 ?></h4>
-          <button type="button" class="btn wr-btn" data-toggle="modal" data-target="#wrmodal1">Read me</button>
-        </div>
-      </div>
-      <!-- 5 -->
-      <div class="wr-card card text-center text-body">
-        <img class="card-img-top img-fluid" src="./imgs/icons/male child.svg" alt="card1-image">
-        <hr class="mx-auto">
-        <div class="card-body">
-          <h4 class="card-title"><?php echo $h1 ?></h4>
-          <button type="button" class="btn wr-btn" data-toggle="modal" data-target="#wrmodal1">Read me</button>
-        </div>
-      </div>
-      <!-- 6 -->
-      <div class="wr-card card text-center text-body">
-        <img class="card-img-top img-fluid" src="./imgs/icons/male child.svg" alt="card1-image">
-        <hr class="mx-auto">
-        <div class="card-body">
-          <h4 class="card-title"><?php echo $h1 ?></h4>
-          <button type="button" class="btn wr-btn" data-toggle="modal" data-target="#wrmodal1">Read me</button>
-        </div>
-      </div>
-      <!-- 7 -->
-      <div class="wr-card card text-center text-body">
-        <img class="card-img-top img-fluid" src="./imgs/icons/male child.svg" alt="card1-image">
-        <hr class="mx-auto">
-        <div class="card-body">
-          <h4 class="card-title"><?php echo $h1 ?></h4>
-          <button type="button" class="btn wr-btn" data-toggle="modal" data-target="#wrmodal1">Read me</button>
-        </div>
-      </div>
-      <!-- 8 -->
-      <div class="wr-card card text-center text-body">
-        <img class="card-img-top img-fluid" src="./imgs/icons/male child.svg" alt="card1-image">
-        <hr class="mx-auto">
-        <div class="card-body">
-          <h4 class="card-title"><?php echo $h1 ?></h4>
-          <button type="button" class="btn wr-btn" data-toggle="modal" data-target="#wrmodal1">Read me</button>
-        </div>
-      </div>
-      <!-- 9 -->
-      <div class="wr-card card text-center text-body">
-        <img class="card-img-top img-fluid" src="./imgs/icons/male child.svg" alt="card1-image">
-        <hr class="mx-auto">
-        <div class="card-body">
-          <h4 class="card-title"><?php echo $h1 ?></h4>
-          <button type="button" class="btn wr-btn" data-toggle="modal" data-target="#wrmodal1">Read me</button>
-        </div>
-      </div>
-      <!-- 10 -->
-      <div class="wr-card card text-center text-body">
-        <img class="card-img-top img-fluid" src="./imgs/icons/male child.svg" alt="card1-image">
-        <hr class="mx-auto">
-        <div class="card-body">
-          <h4 class="card-title"><?php echo $h1 ?></h4>
-          <button type="button" class="btn wr-btn" data-toggle="modal" data-target="#wrmodal1">Read me</button>
-        </div>
-      </div>
-      <!-- 11 -->
-      <div class="wr-card card text-center text-body">
-        <img class="card-img-top img-fluid" src="./imgs/icons/male child.svg" alt="card1-image">
-        <hr class="mx-auto">
-        <div class="card-body">
-          <h4 class="card-title"><?php echo $h1 ?></h4>
-          <button type="button" class="btn wr-btn" data-toggle="modal" data-target="#wrmodal1">Read me</button>
-        </div>
-      </div>
-      <!-- 12 -->
-      <div class="wr-card card text-center text-body">
-        <img class="card-img-top img-fluid" src="./imgs/icons/male child.svg" alt="card1-image">
-        <hr class="mx-auto">
-        <div class="card-body">
-          <h4 class="card-title"><?php echo $h1 ?></h4>
-          <button type="button" class="btn wr-btn" data-toggle="modal" data-target="#wrmodal1">Read me</button>
-        </div>
-      </div>
-      <!-- 13 -->
-      <div class="wr-card card text-center text-body">
-        <img class="card-img-top img-fluid" src="./imgs/icons/male child.svg" alt="card1-image">
-        <hr class="mx-auto">
-        <div class="card-body">
-          <h4 class="card-title"><?php echo $h1 ?></h4>
-          <button type="button" class="btn wr-btn" data-toggle="modal" data-target="#wrmodal1">Read me</button>
-        </div>
-      </div>
-      <!-- 14 -->
-      <div class="wr-card card text-center text-body">
-        <img class="card-img-top img-fluid" src="./imgs/icons/male child.svg" alt="card1-image">
-        <hr class="mx-auto">
-        <div class="card-body">
-          <h4 class="card-title"><?php echo $h1 ?></h4>
-          <button type="button" class="btn wr-btn" data-toggle="modal" data-target="#wrmodal1">Read me</button>
-        </div>
-      </div>
-      <!-- 15 -->
-      <div class="wr-card card text-center text-body">
-        <img class="card-img-top img-fluid" src="./imgs/icons/male child.svg" alt="card1-image">
-        <hr class="mx-auto">
-        <div class="card-body">
-          <h4 class="card-title"><?php echo $h1 ?></h4>
-          <button type="button" class="btn wr-btn" data-toggle="modal" data-target="#wrmodal1">Read me</button>
+          <h4 class="card-title"><?php echo $h2 ?></h4>
+          <button type="button" class="btn wr-btn" data-toggle="modal" data-target="#wrmodal2">Read me</button>
         </div>
       </div>
 
+      <!-- The Modal2 -->
+      <div class="modal modal-fade wr-modal" id="wrmodal2">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content">
+          
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title"><img src="./imgs/icons/Dowery Death.svg" alt="icon"><?php echo $h2 ?></h4>
+              <button type="button" class="close" data-dismiss="modal"><img src="./imgs/rights/close.svg" alt=""></button>
+            </div>
+            
+            <!-- Modal body -->
+            <div class="modal-body">
+              <?php echo $h2b ?>
+            </div>
+            
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-warning share" style="font-weight: bold;"><img src="./imgs/rights/share.svg" alt="" style="width: 20px;">Share</button>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+
+
+      <!-- 3 -->
+      <div class="wr-card card text-center text-body">
+        <img class="card-img-top img-fluid" src="./imgs/icons/Domestic Violence.svg" alt="card3-image">
+        <hr class="mx-auto">
+        <div class="card-body">
+          <h4 class="card-title"><?php echo $h3 ?></h4>
+          <button type="button" class="btn wr-btn" data-toggle="modal" data-target="#wrmodal3">Read me</button>
+        </div>
+      </div>
+
+      <!-- The Modal3 -->
+      <div class="modal modal-fade wr-modal" id="wrmodal3">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content">
+          
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">
+                <img src="./imgs/icons/Domestic Violence.svg" alt="icon">
+                <?php echo $h3 ?>
+              </h4>
+              <button type="button" class="close" data-dismiss="modal">
+                <img src="./imgs/rights/close.svg" alt="">
+              </button>
+            </div>
+            
+            <!-- Modal body -->
+            <div class="modal-body">
+              <?php echo $h3b ?>
+            </div>
+            
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-warning share" style="font-weight: bold;">
+              <img src="./imgs/rights/share.svg" alt="" style="width: 20px;">Share</button>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+
+
+      <!-- 4 -->
+      <div class="wr-card card text-center text-body">
+        <img class="card-img-top img-fluid" src="./imgs/icons/Sati.svg" alt="card4-image">
+        <hr class="mx-auto">
+        <div class="card-body">
+          <h4 class="card-title"><?php echo $h4 ?></h4>
+          <button type="button" class="btn wr-btn" data-toggle="modal" data-target="#wrmodal4">Read me</button>
+        </div>
+      </div>
+
+      <!-- The Modal4 -->
+      <div class="modal modal-fade wr-modal" id="wrmodal4">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content">
+          
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">
+                <img src="./imgs/icons/Sati.svg" alt="icon">
+                <?php echo $h4 ?>
+              </h4>
+              <button type="button" class="close" data-dismiss="modal">
+                <img src="./imgs/rights/close.svg" alt="">
+              </button>
+            </div>
+            
+            <!-- Modal body -->
+            <div class="modal-body">
+              <?php echo $h4b ?>
+            </div>
+            
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-warning share" style="font-weight: bold;">
+              <img src="./imgs/rights/share.svg" alt="" style="width: 20px;">Share</button>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+
+      <!-- 5 -->
+      <div class="wr-card card text-center text-body">
+        <img class="card-img-top img-fluid" src="./imgs/icons/Child Maraige.svg" alt="card5-image">
+        <hr class="mx-auto">
+        <div class="card-body">
+          <h4 class="card-title"><?php echo $h5 ?></h4>
+          <button type="button" class="btn wr-btn" data-toggle="modal" data-target="#wrmodal5">Read me</button>
+        </div>
+      </div>
+
+      <!-- The Modal5 -->
+      <div class="modal modal-fade wr-modal" id="wrmodal5">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content">
+          
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">
+                <img src="./imgs/icons/Child Maraige.svg" alt="icon">
+                <?php echo $h5 ?>
+              </h4>
+              <button type="button" class="close" data-dismiss="modal">
+                <img src="./imgs/rights/close.svg" alt="">
+              </button>
+            </div>
+            
+            <!-- Modal body -->
+            <div class="modal-body">
+              <?php echo $h5b ?>
+            </div>
+            
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-warning share" style="font-weight: bold;">
+              <img src="./imgs/rights/share.svg" alt="" style="width: 20px;">Share</button>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+
+
+      <!-- 6 -->
+      <div class="wr-card card text-center text-body">
+        <img class="card-img-top img-fluid" src="./imgs/icons/male child.svg" alt="card6-image">
+        <hr class="mx-auto">
+        <div class="card-body">
+          <h4 class="card-title"><?php echo $h6 ?></h4>
+          <button type="button" class="btn wr-btn" data-toggle="modal" data-target="#wrmodal6">Read me</button>
+        </div>
+      </div>
+
+      <!-- The Modal6 -->
+      <div class="modal modal-fade wr-modal" id="wrmodal6">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content">
+          
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">
+                <img src="./imgs/icons/male child.svg" alt="icon">
+                <?php echo $h6 ?>
+              </h4>
+              <button type="button" class="close" data-dismiss="modal">
+                <img src="./imgs/rights/close.svg" alt="">
+              </button>
+            </div>
+            
+            <!-- Modal body -->
+            <div class="modal-body">
+              <?php echo $h6b ?>
+            </div>
+            
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-warning share" style="font-weight: bold;">
+              <img src="./imgs/rights/share.svg" alt="" style="width: 20px;">Share</button>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+
+
+      <!-- 7 -->
+      <div class="wr-card card text-center text-body">
+        <img class="card-img-top img-fluid" src="./imgs/icons/Infanticide.svg" alt="card7-image">
+        <hr class="mx-auto">
+        <div class="card-body">
+          <h4 class="card-title"><?php echo $h7 ?></h4>
+          <button type="button" class="btn wr-btn" data-toggle="modal" data-target="#wrmodal7">Read me</button>
+        </div>
+      </div>
+
+      <!-- The Modal7 -->
+      <div class="modal modal-fade wr-modal" id="wrmodal7">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content">
+          
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">
+                <img src="./imgs/icons/Infanticide.svg" alt="icon">
+                <?php echo $h7 ?>
+              </h4>
+              <button type="button" class="close" data-dismiss="modal">
+                <img src="./imgs/rights/close.svg" alt="">
+              </button>
+            </div>
+            
+            <!-- Modal body -->
+            <div class="modal-body">
+              <?php echo $h7b ?>
+            </div>
+            
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-warning share" style="font-weight: bold;">
+              <img src="./imgs/rights/share.svg" alt="" style="width: 20px;">Share</button>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+
+
+      <!-- 8 -->
+      <div class="wr-card card text-center text-body">
+        <img class="card-img-top img-fluid" src="./imgs/icons/Education.svg" alt="card8-image">
+        <hr class="mx-auto">
+        <div class="card-body">
+          <h4 class="card-title"><?php echo $h8 ?></h4>
+          <button type="button" class="btn wr-btn" data-toggle="modal" data-target="#wrmodal8">Read me</button>
+        </div>
+      </div>
+
+      <!-- The Modal8 -->
+      <div class="modal modal-fade wr-modal" id="wrmodal8">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content">
+          
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">
+                <img src="./imgs/icons/Education.svg" alt="icon">
+                <?php echo $h8 ?>
+              </h4>
+              <button type="button" class="close" data-dismiss="modal">
+                <img src="./imgs/rights/close.svg" alt="">
+              </button>
+            </div>
+            
+            <!-- Modal body -->
+            <div class="modal-body">
+              <?php echo $h8b ?>
+            </div>
+            
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-warning share" style="font-weight: bold;">
+              <img src="./imgs/rights/share.svg" alt="" style="width: 20px;">Share</button>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+
+
+      <!-- 9 -->
+      <div class="wr-card card text-center text-body">
+        <img class="card-img-top img-fluid" src="./imgs/icons/Exclusion.svg" alt="card9-image">
+        <hr class="mx-auto">
+        <div class="card-body">
+          <h4 class="card-title"><?php echo $h9 ?></h4>
+          <button type="button" class="btn wr-btn" data-toggle="modal" data-target="#wrmodal9">Read me</button>
+        </div>
+      </div>
+
+      <!-- The Modal9 -->
+      <div class="modal modal-fade wr-modal" id="wrmodal9">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content">
+          
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">
+                <img src="./imgs/icons/Exclusion.svg" alt="icon">
+                <?php echo $h9 ?>
+              </h4>
+              <button type="button" class="close" data-dismiss="modal">
+                <img src="./imgs/rights/close.svg" alt="">
+              </button>
+            </div>
+            
+            <!-- Modal body -->
+            <div class="modal-body">
+              <?php echo $h9b ?>
+            </div>
+            
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-warning share" style="font-weight: bold;">
+              <img src="./imgs/rights/share.svg" alt="" style="width: 20px;">Share</button>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+
+
+      <!-- 10 -->
+      <div class="wr-card card text-center text-body">
+        <img class="card-img-top img-fluid" src="./imgs/icons/Harrasment at work.svg" alt="card10-image">
+        <hr class="mx-auto">
+        <div class="card-body">
+          <h4 class="card-title"><?php echo $h10 ?></h4>
+          <button type="button" class="btn wr-btn" data-toggle="modal" data-target="#wrmodal10">Read me</button>
+        </div>
+      </div>
+
+      <!-- The Modal10 -->
+      <div class="modal modal-fade wr-modal" id="wrmodal10">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content">
+          
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">
+                <img src="./imgs/icons/Harrasment at work.svg" alt="icon">
+                <?php echo $h10 ?>
+              </h4>
+              <button type="button" class="close" data-dismiss="modal">
+                <img src="./imgs/rights/close.svg" alt="">
+              </button>
+            </div>
+            
+            <!-- Modal body -->
+            <div class="modal-body">
+              <?php echo $h10b ?>
+            </div>
+            
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-warning share" style="font-weight: bold;">
+              <img src="./imgs/rights/share.svg" alt="" style="width: 20px;">Share</button>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+
+
+      <!-- 11 -->
+      <div class="wr-card card text-center text-body">
+        <img class="card-img-top img-fluid" src="./imgs/icons/Rape.svg" alt="card11-image">
+        <hr class="mx-auto">
+        <div class="card-body">
+          <h4 class="card-title"><?php echo $h11 ?></h4>
+          <button type="button" class="btn wr-btn" data-toggle="modal" data-target="#wrmodal11">Read me</button>
+        </div>
+      </div>
+
+      <!-- The Modal11 -->
+      <div class="modal modal-fade wr-modal" id="wrmodal11">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content">
+          
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">
+                <img src="./imgs/icons/Rape.svg" alt="icon">
+                <?php echo $h11 ?>
+              </h4>
+              <button type="button" class="close" data-dismiss="modal">
+                <img src="./imgs/rights/close.svg" alt="">
+              </button>
+            </div>
+            
+            <!-- Modal body -->
+            <div class="modal-body">
+              <?php echo $h11b ?>
+            </div>
+            
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-warning share" style="font-weight: bold;">
+              <img src="./imgs/rights/share.svg" alt="" style="width: 20px;">Share</button>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+
+
+      <!-- 12 -->
+      <div class="wr-card card text-center text-body">
+        <img class="card-img-top img-fluid" src="./imgs/icons/society.svg" alt="card12-image">
+        <hr class="mx-auto">
+        <div class="card-body">
+          <h4 class="card-title"><?php echo $h12 ?></h4>
+          <button type="button" class="btn wr-btn" data-toggle="modal" data-target="#wrmodal12">Read me</button>
+        </div>
+      </div>
+
+      <!-- The Modal12 -->
+      <div class="modal modal-fade wr-modal" id="wrmodal12">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content">
+          
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">
+                <img src="./imgs/icons/society.svg" alt="icon">
+                <?php echo $h12 ?>
+              </h4>
+              <button type="button" class="close" data-dismiss="modal">
+                <img src="./imgs/rights/close.svg" alt="">
+              </button>
+            </div>
+            
+            <!-- Modal body -->
+            <div class="modal-body">
+              <?php echo $h12b ?>
+            </div>
+            
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-warning share" style="font-weight: bold;">
+              <img src="./imgs/rights/share.svg" alt="" style="width: 20px;">Share</button>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+
+
+      <!-- 13 -->
+      <div class="wr-card card text-center text-body">
+        <img class="card-img-top img-fluid" src="./imgs/icons/woman empowerment.svg" alt="card13-image">
+        <hr class="mx-auto">
+        <div class="card-body">
+          <h4 class="card-title"><?php echo $h13 ?></h4>
+          <button type="button" class="btn wr-btn" data-toggle="modal" data-target="#wrmodal13">Read me</button>
+        </div>
+      </div>
+
+      <!-- The Modal13 -->
+      <div class="modal modal-fade wr-modal" id="wrmodal13">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content">
+          
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">
+                <img src="./imgs/icons/woman empowerment.svg" alt="icon">
+                <?php echo $h13 ?>
+              </h4>
+              <button type="button" class="close" data-dismiss="modal">
+                <img src="./imgs/rights/close.svg" alt="">
+              </button>
+            </div>
+            
+            <!-- Modal body -->
+            <div class="modal-body">
+              <?php echo $h13b ?>
+            </div>
+            
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-warning share" style="font-weight: bold;">
+              <img src="./imgs/rights/share.svg" alt="" style="width: 20px;">Share</button>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+
+
+      <!-- 14 -->
+      <div class="wr-card card text-center text-body">
+        <img class="card-img-top img-fluid" src="./imgs/icons/Fundamental Rights.svg" alt="card14-image">
+        <hr class="mx-auto">
+        <div class="card-body">
+          <h4 class="card-title"><?php echo $h14 ?></h4>
+          <button type="button" class="btn wr-btn" data-toggle="modal" data-target="#wrmodal14">Read me</button>
+        </div>
+      </div>
+
+      <!-- The Modal14 -->
+      <div class="modal modal-fade wr-modal" id="wrmodal14">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content">
+          
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">
+                <img src="./imgs/icons/Fundamental Rights.svg" alt="icon">
+                <?php echo $h14 ?>
+              </h4>
+              <button type="button" class="close" data-dismiss="modal">
+                <img src="./imgs/rights/close.svg" alt="">
+              </button>
+            </div>
+            
+            <!-- Modal body -->
+            <div class="modal-body">
+              <?php echo $h14b ?>
+            </div>
+            
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-warning share" style="font-weight: bold;">
+              <img src="./imgs/rights/share.svg" alt="" style="width: 20px;">Share</button>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+
+
+      <!-- 15 -->
+      <div class="wr-card card text-center text-body">
+        <img class="card-img-top img-fluid" src="./imgs/icons/work.svg" alt="card15-image">
+        <hr class="mx-auto">
+        <div class="card-body">
+          <h4 class="card-title"><?php echo $h15 ?></h4>
+          <button type="button" class="btn wr-btn" data-toggle="modal" data-target="#wrmodal15">Read me</button>
+        </div>
+      </div>
+
+      <!-- The Modal15 -->
+      <div class="modal modal-fade wr-modal" id="wrmodal15">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+          <div class="modal-content">
+          
+            <!-- Modal Header -->
+            <div class="modal-header">
+              <h4 class="modal-title">
+                <img src="./imgs/icons/work.svg" alt="icon">
+                <?php echo $h15 ?>
+              </h4>
+              <button type="button" class="close" data-dismiss="modal">
+                <img src="./imgs/rights/close.svg" alt="">
+              </button>
+            </div>
+            
+            <!-- Modal body -->
+            <div class="modal-body">
+              <?php echo $h15b ?>
+            </div>
+            
+            <!-- Modal footer -->
+            <div class="modal-footer">
+              <button type="button" class="btn btn-warning share" style="font-weight: bold;">
+              <img src="./imgs/rights/share.svg" alt="" style="width: 20px;">Share</button>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+
+
+
     </div>
+  </div>
+
+  <div class="container-fluid wr-helpline">
+  
   </div>
 
   <div class="container-fluid wr-footer">
