@@ -27,6 +27,6 @@ function myFunction() {
 
 
 document.getElementById('wr-rights-page').onclick = function() {
-    location.href = './rights.html';
+    location.href = './rights.php';
 };
 
