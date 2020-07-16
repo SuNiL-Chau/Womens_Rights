@@ -52,9 +52,15 @@ body h1, body h2, body h3, body h4, body h5, body h6 {
   color: #000;
 }
 
+@media screen and (max-width: 450px) {
+  .wr-sec1 .wr-sec1-col1-con {
+    margin-left: 0 !important;
+    width: auto !important;
+  }
+}
+
 .wrcards-collection .card-columns {
   padding: 60px 30px;
-  width: min-content;
 }
 
 .wrcards-collection .card-columns .card {
@@ -62,7 +68,6 @@ body h1, body h2, body h3, body h4, body h5, body h6 {
 }
 
 .wrcards-collection .card-columns .wr-card {
-  width: 350px;
   border-radius: 12px;
   box-shadow: none;
 }
@@ -86,6 +91,12 @@ body h1, body h2, body h3, body h4, body h5, body h6 {
 .wrcards-collection .card-columns .wr-card:hover {
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
   transition: 0.5s ease-in-out;
+}
+
+@media screen and (max-width: 450px) {
+  .wrcards-collection .card-columns {
+    padding: 60px 0px !important;
+  }
 }
 
 .wrcards-collection .wr-modal .modal-content {
@@ -123,6 +134,11 @@ body h1, body h2, body h3, body h4, body h5, body h6 {
 .wrcards-collection .wr-modal .modal-content .close {
   margin: 0rem 0rem 0rem auto !important;
   opacity: 1 !important;
+}
+
+.wr-helpline .wr-col2-hl .wr-help-tel {
+  font-weight: bold;
+  padding-left: 20px;
 }
 
 .wr-footer .wr-foot-col1 a {

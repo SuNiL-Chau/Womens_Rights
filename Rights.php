@@ -63,7 +63,7 @@
     <div class="card-columns mx-auto">
       <!-- 1 -->
       <div class="wr-card card text-center text-body">
-        <img class="card-img-top img-fluid" src="./imgs/icons/missing.svg" alt="card1-image">
+        <img class="card-img-top mx-auto img-fluid" src="./imgs/icons/missing.svg" alt="card1-image">
         <hr class="mx-auto">
         <div class="card-body">
           <h4 class="card-title"><?php echo $h1 ?></h4>
@@ -73,7 +73,7 @@
 
       <!-- The Modal -->
       <div class="modal modal-fade wr-modal" id="wrmodal1">
-        <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-dialog modal-lg modal-dialog-scrollable modal-dialog-centered">
           <div class="modal-content">
           
             <!-- Modal Header -->
@@ -83,7 +83,7 @@
             </div>
             
             <!-- Modal body -->
-            <div class="modal-body">
+            <div class="modal-body lead">
               <?php echo $h1b ?>
             </div>
             
@@ -98,7 +98,7 @@
 
       <!-- 2 -->
       <div class="wr-card card text-center text-body">
-        <img class="card-img-top img-fluid" src="./imgs/icons/Dowery Death.svg" alt="card2-image">
+        <img class="card-img-top mx-auto img-fluid" src="./imgs/icons/Dowery Death.svg" alt="card2-image">
         <hr class="mx-auto">
         <div class="card-body">
           <h4 class="card-title"><?php echo $h2 ?></h4>
@@ -108,7 +108,7 @@
 
       <!-- The Modal2 -->
       <div class="modal modal-fade wr-modal" id="wrmodal2">
-        <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-dialog modal-lg modal-dialog-scrollable modal-dialog-centered">
           <div class="modal-content">
           
             <!-- Modal Header -->
@@ -118,7 +118,7 @@
             </div>
             
             <!-- Modal body -->
-            <div class="modal-body">
+            <div class="modal-body lead">
               <?php echo $h2b ?>
             </div>
             
@@ -134,7 +134,7 @@
 
       <!-- 3 -->
       <div class="wr-card card text-center text-body">
-        <img class="card-img-top img-fluid" src="./imgs/icons/Domestic Violence.svg" alt="card3-image">
+        <img class="card-img-top mx-auto img-fluid" src="./imgs/icons/Domestic Violence.svg" alt="card3-image">
         <hr class="mx-auto">
         <div class="card-body">
           <h4 class="card-title"><?php echo $h3 ?></h4>
@@ -144,7 +144,7 @@
 
       <!-- The Modal3 -->
       <div class="modal modal-fade wr-modal" id="wrmodal3">
-        <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-dialog modal-lg modal-dialog-scrollable modal-dialog-centered">
           <div class="modal-content">
           
             <!-- Modal Header -->
@@ -159,7 +159,7 @@
             </div>
             
             <!-- Modal body -->
-            <div class="modal-body">
+            <div class="modal-body lead">
               <?php echo $h3b ?>
             </div>
             
@@ -176,7 +176,7 @@
 
       <!-- 4 -->
       <div class="wr-card card text-center text-body">
-        <img class="card-img-top img-fluid" src="./imgs/icons/Sati.svg" alt="card4-image">
+        <img class="card-img-top mx-auto img-fluid" src="./imgs/icons/Sati.svg" alt="card4-image">
         <hr class="mx-auto">
         <div class="card-body">
           <h4 class="card-title"><?php echo $h4 ?></h4>
@@ -186,7 +186,7 @@
 
       <!-- The Modal4 -->
       <div class="modal modal-fade wr-modal" id="wrmodal4">
-        <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-dialog modal-lg modal-dialog-scrollable modal-dialog-centered">
           <div class="modal-content">
           
             <!-- Modal Header -->
@@ -201,7 +201,7 @@
             </div>
             
             <!-- Modal body -->
-            <div class="modal-body">
+            <div class="modal-body lead">
               <?php echo $h4b ?>
             </div>
             
@@ -217,7 +217,7 @@
 
       <!-- 5 -->
       <div class="wr-card card text-center text-body">
-        <img class="card-img-top img-fluid" src="./imgs/icons/Child Maraige.svg" alt="card5-image">
+        <img class="card-img-top mx-auto img-fluid" src="./imgs/icons/Child Maraige.svg" alt="card5-image">
         <hr class="mx-auto">
         <div class="card-body">
           <h4 class="card-title"><?php echo $h5 ?></h4>
@@ -227,7 +227,7 @@
 
       <!-- The Modal5 -->
       <div class="modal modal-fade wr-modal" id="wrmodal5">
-        <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-dialog modal-lg modal-dialog-scrollable modal-dialog-centered">
           <div class="modal-content">
           
             <!-- Modal Header -->
@@ -242,7 +242,7 @@
             </div>
             
             <!-- Modal body -->
-            <div class="modal-body">
+            <div class="modal-body lead">
               <?php echo $h5b ?>
             </div>
             
@@ -259,7 +259,7 @@
 
       <!-- 6 -->
       <div class="wr-card card text-center text-body">
-        <img class="card-img-top img-fluid" src="./imgs/icons/male child.svg" alt="card6-image">
+        <img class="card-img-top mx-auto img-fluid" src="./imgs/icons/male child.svg" alt="card6-image">
         <hr class="mx-auto">
         <div class="card-body">
           <h4 class="card-title"><?php echo $h6 ?></h4>
@@ -269,7 +269,7 @@
 
       <!-- The Modal6 -->
       <div class="modal modal-fade wr-modal" id="wrmodal6">
-        <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-dialog modal-lg modal-dialog-scrollable modal-dialog-centered">
           <div class="modal-content">
           
             <!-- Modal Header -->
@@ -284,7 +284,7 @@
             </div>
             
             <!-- Modal body -->
-            <div class="modal-body">
+            <div class="modal-body lead">
               <?php echo $h6b ?>
             </div>
             
@@ -301,7 +301,7 @@
 
       <!-- 7 -->
       <div class="wr-card card text-center text-body">
-        <img class="card-img-top img-fluid" src="./imgs/icons/Infanticide.svg" alt="card7-image">
+        <img class="card-img-top mx-auto img-fluid" src="./imgs/icons/Infanticide.svg" alt="card7-image">
         <hr class="mx-auto">
         <div class="card-body">
           <h4 class="card-title"><?php echo $h7 ?></h4>
@@ -311,7 +311,7 @@
 
       <!-- The Modal7 -->
       <div class="modal modal-fade wr-modal" id="wrmodal7">
-        <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-dialog modal-lg modal-dialog-scrollable modal-dialog-centered">
           <div class="modal-content">
           
             <!-- Modal Header -->
@@ -326,7 +326,7 @@
             </div>
             
             <!-- Modal body -->
-            <div class="modal-body">
+            <div class="modal-body lead">
               <?php echo $h7b ?>
             </div>
             
@@ -343,7 +343,7 @@
 
       <!-- 8 -->
       <div class="wr-card card text-center text-body">
-        <img class="card-img-top img-fluid" src="./imgs/icons/Education.svg" alt="card8-image">
+        <img class="card-img-top mx-auto img-fluid" src="./imgs/icons/Education.svg" alt="card8-image">
         <hr class="mx-auto">
         <div class="card-body">
           <h4 class="card-title"><?php echo $h8 ?></h4>
@@ -353,7 +353,7 @@
 
       <!-- The Modal8 -->
       <div class="modal modal-fade wr-modal" id="wrmodal8">
-        <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-dialog modal-lg modal-dialog-scrollable modal-dialog-centered">
           <div class="modal-content">
           
             <!-- Modal Header -->
@@ -368,7 +368,7 @@
             </div>
             
             <!-- Modal body -->
-            <div class="modal-body">
+            <div class="modal-body lead">
               <?php echo $h8b ?>
             </div>
             
@@ -385,7 +385,7 @@
 
       <!-- 9 -->
       <div class="wr-card card text-center text-body">
-        <img class="card-img-top img-fluid" src="./imgs/icons/Exclusion.svg" alt="card9-image">
+        <img class="card-img-top mx-auto img-fluid" src="./imgs/icons/Exclusion.svg" alt="card9-image">
         <hr class="mx-auto">
         <div class="card-body">
           <h4 class="card-title"><?php echo $h9 ?></h4>
@@ -395,7 +395,7 @@
 
       <!-- The Modal9 -->
       <div class="modal modal-fade wr-modal" id="wrmodal9">
-        <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-dialog modal-lg modal-dialog-scrollable modal-dialog-centered">
           <div class="modal-content">
           
             <!-- Modal Header -->
@@ -410,7 +410,7 @@
             </div>
             
             <!-- Modal body -->
-            <div class="modal-body">
+            <div class="modal-body lead">
               <?php echo $h9b ?>
             </div>
             
@@ -427,7 +427,7 @@
 
       <!-- 10 -->
       <div class="wr-card card text-center text-body">
-        <img class="card-img-top img-fluid" src="./imgs/icons/Harrasment at work.svg" alt="card10-image">
+        <img class="card-img-top mx-auto img-fluid" src="./imgs/icons/Harrasment at work.svg" alt="card10-image">
         <hr class="mx-auto">
         <div class="card-body">
           <h4 class="card-title"><?php echo $h10 ?></h4>
@@ -437,7 +437,7 @@
 
       <!-- The Modal10 -->
       <div class="modal modal-fade wr-modal" id="wrmodal10">
-        <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-dialog modal-lg modal-dialog-scrollable modal-dialog-centered">
           <div class="modal-content">
           
             <!-- Modal Header -->
@@ -452,7 +452,7 @@
             </div>
             
             <!-- Modal body -->
-            <div class="modal-body">
+            <div class="modal-body lead">
               <?php echo $h10b ?>
             </div>
             
@@ -469,7 +469,7 @@
 
       <!-- 11 -->
       <div class="wr-card card text-center text-body">
-        <img class="card-img-top img-fluid" src="./imgs/icons/Rape.svg" alt="card11-image">
+        <img class="card-img-top mx-auto img-fluid" src="./imgs/icons/Rape.svg" alt="card11-image">
         <hr class="mx-auto">
         <div class="card-body">
           <h4 class="card-title"><?php echo $h11 ?></h4>
@@ -479,7 +479,7 @@
 
       <!-- The Modal11 -->
       <div class="modal modal-fade wr-modal" id="wrmodal11">
-        <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-dialog modal-lg modal-dialog-scrollable modal-dialog-centered">
           <div class="modal-content">
           
             <!-- Modal Header -->
@@ -494,7 +494,7 @@
             </div>
             
             <!-- Modal body -->
-            <div class="modal-body">
+            <div class="modal-body lead">
               <?php echo $h11b ?>
             </div>
             
@@ -511,7 +511,7 @@
 
       <!-- 12 -->
       <div class="wr-card card text-center text-body">
-        <img class="card-img-top img-fluid" src="./imgs/icons/society.svg" alt="card12-image">
+        <img class="card-img-top mx-auto img-fluid" src="./imgs/icons/society.svg" alt="card12-image">
         <hr class="mx-auto">
         <div class="card-body">
           <h4 class="card-title"><?php echo $h12 ?></h4>
@@ -521,7 +521,7 @@
 
       <!-- The Modal12 -->
       <div class="modal modal-fade wr-modal" id="wrmodal12">
-        <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-dialog modal-lg modal-dialog-scrollable modal-dialog-centered">
           <div class="modal-content">
           
             <!-- Modal Header -->
@@ -536,7 +536,7 @@
             </div>
             
             <!-- Modal body -->
-            <div class="modal-body">
+            <div class="modal-body lead">
               <?php echo $h12b ?>
             </div>
             
@@ -553,7 +553,7 @@
 
       <!-- 13 -->
       <div class="wr-card card text-center text-body">
-        <img class="card-img-top img-fluid" src="./imgs/icons/woman empowerment.svg" alt="card13-image">
+        <img class="card-img-top mx-auto img-fluid" src="./imgs/icons/woman empowerment.svg" alt="card13-image">
         <hr class="mx-auto">
         <div class="card-body">
           <h4 class="card-title"><?php echo $h13 ?></h4>
@@ -563,7 +563,7 @@
 
       <!-- The Modal13 -->
       <div class="modal modal-fade wr-modal" id="wrmodal13">
-        <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-dialog modal-lg modal-dialog-scrollable modal-dialog-centered">
           <div class="modal-content">
           
             <!-- Modal Header -->
@@ -578,7 +578,7 @@
             </div>
             
             <!-- Modal body -->
-            <div class="modal-body">
+            <div class="modal-body lead">
               <?php echo $h13b ?>
             </div>
             
@@ -595,7 +595,7 @@
 
       <!-- 14 -->
       <div class="wr-card card text-center text-body">
-        <img class="card-img-top img-fluid" src="./imgs/icons/Fundamental Rights.svg" alt="card14-image">
+        <img class="card-img-top mx-auto img-fluid" src="./imgs/icons/Fundamental Rights.svg" alt="card14-image">
         <hr class="mx-auto">
         <div class="card-body">
           <h4 class="card-title"><?php echo $h14 ?></h4>
@@ -605,7 +605,7 @@
 
       <!-- The Modal14 -->
       <div class="modal modal-fade wr-modal" id="wrmodal14">
-        <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-dialog modal-lg modal-dialog-scrollable modal-dialog-centered">
           <div class="modal-content">
           
             <!-- Modal Header -->
@@ -620,7 +620,7 @@
             </div>
             
             <!-- Modal body -->
-            <div class="modal-body">
+            <div class="modal-body lead">
               <?php echo $h14b ?>
             </div>
             
@@ -637,7 +637,7 @@
 
       <!-- 15 -->
       <div class="wr-card card text-center text-body">
-        <img class="card-img-top img-fluid" src="./imgs/icons/work.svg" alt="card15-image">
+        <img class="card-img-top mx-auto img-fluid" src="./imgs/icons/work.svg" alt="card15-image">
         <hr class="mx-auto">
         <div class="card-body">
           <h4 class="card-title"><?php echo $h15 ?></h4>
@@ -647,7 +647,7 @@
 
       <!-- The Modal15 -->
       <div class="modal modal-fade wr-modal" id="wrmodal15">
-        <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-dialog modal-lg modal-dialog-scrollable modal-dialog-centered">
           <div class="modal-content">
           
             <!-- Modal Header -->
@@ -662,7 +662,7 @@
             </div>
             
             <!-- Modal body -->
-            <div class="modal-body">
+            <div class="modal-body lead">
               <?php echo $h15b ?>
             </div>
             
@@ -682,7 +682,24 @@
   </div>
 
   <div class="container-fluid wr-helpline">
-  
+    <div class="row">
+      <div class="col-sm-12 col-md-6 col-lg-6 text-center wr-col1-hl">
+        <img src="./imgs/rights/Admin-bro.svg" alt="helpline image" class="img-fluid">
+      </div>
+      <div class="col-sm-12 col-md-6 col-lg-6 wr-col2-hl align-self-center">
+        <div class="container text-body">
+          <h2>Helpline Numbers (India)</h2>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus culpa beatae aperiam atque, nihil at natus fugit architecto quaerat odit nisi dignissimos fuga praesentium ullam iste vero distinctio ut harum?</p>
+          <ul class="wr-help-tel">
+            <li>Women Helpline: 1091</li>
+            <li>Women Helpline(Domestic Abuse): 181</li>
+            <li>Police: 100</li>
+            <li>Fire: 101</li>
+            <li>Ambulance: 102</li>
+          </ul>  
+        </div>
+      </div>
+    </div>
   </div>
 
   <div class="container-fluid wr-footer">

@@ -81,18 +81,24 @@ body{
     }
 }
 
+@include mobile(){
+    .wr-sec1 .wr-sec1-col1-con{
+        margin-left: 0 !important;
+        width: auto !important;
+    }
+}
+
+
 .wrcards-collection{
 
     .card-columns{
         padding: 60px 30px;
-        width: min-content;
 
         .card {
             margin: 2rem 1rem;
         }
 
         .wr-card{
-            width: 350px;
             border-radius: 12px;
             box-shadow: none;
 
@@ -115,6 +121,12 @@ body{
         .wr-card:hover{
             box-shadow: $shadow;
             transition: 0.5s ease-in-out;
+        }
+    }
+
+    @include mobile(){
+        .card-columns{
+            padding: 60px 0px !important;
         }
     }
 
@@ -145,6 +157,15 @@ body{
         .close{
             margin: 0rem 0rem 0rem auto !important;
             opacity: 1 !important;
+        }
+    }
+}
+
+.wr-helpline{
+    .wr-col2-hl{
+        .wr-help-tel{
+            font-weight: bold;
+            padding-left: 20px;
         }
     }
 }
