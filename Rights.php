@@ -77,9 +77,14 @@
           <div class="modal-content">
           
             <!-- Modal Header -->
-            <div class="modal-header">
-              <h4 class="modal-title"><img src="./imgs/icons/missing.svg" alt="icon"><?php echo $h1 ?></h4>
-              <button type="button" class="close" data-dismiss="modal"><img src="./imgs/rights/close.svg" alt=""></button>
+            <div class="modal-header d-flex flex-row justify-content-between">
+              <img src="./imgs/icons/missing.svg" alt="icon" class="align-self-center">
+              <h4 class="modal-title align-self-center text-center flex-grow-1">
+                <?php echo $h1 ?>
+              </h4>
+              <button type="button" class="close" data-dismiss="modal">
+                <img src="./imgs/rights/close.svg" alt="close_icon" style="margin-right: 0;">
+              </button>
             </div>
             
             <!-- Modal body -->
@@ -89,7 +94,7 @@
             
             <!-- Modal footer -->
             <div class="modal-footer">
-              <button type="button" class="btn btn-warning share" style="font-weight: bold;"><img src="./imgs/rights/share.svg" alt="" style="width: 20px;">Share</button>
+              <div class="addthis_inline_share_toolbox share"></div>
             </div>
             
           </div>
@@ -112,9 +117,14 @@
           <div class="modal-content">
           
             <!-- Modal Header -->
-            <div class="modal-header">
-              <h4 class="modal-title"><img src="./imgs/icons/Dowery Death.svg" alt="icon"><?php echo $h2 ?></h4>
-              <button type="button" class="close" data-dismiss="modal"><img src="./imgs/rights/close.svg" alt=""></button>
+            <div class="modal-header d-flex flex-row justify-content-between">
+              <img src="./imgs/icons/Dowery Death.svg" alt="icon" class="align-self-center">
+              <h4 class="modal-title align-self-center text-center flex-grow-1">
+                <?php echo $h2 ?>
+              </h4>
+              <button type="button" class="close" data-dismiss="modal">
+                <img src="./imgs/rights/close.svg" alt="close_icon" style="margin-right: 0;">
+              </button>
             </div>
             
             <!-- Modal body -->
@@ -124,7 +134,7 @@
             
             <!-- Modal footer -->
             <div class="modal-footer">
-              <button type="button" class="btn btn-warning share" style="font-weight: bold;"><img src="./imgs/rights/share.svg" alt="" style="width: 20px;">Share</button>
+              <div class="addthis_inline_share_toolbox share"></div>
             </div>
             
           </div>
@@ -148,13 +158,13 @@
           <div class="modal-content">
           
             <!-- Modal Header -->
-            <div class="modal-header">
-              <h4 class="modal-title">
-                <img src="./imgs/icons/Domestic Violence.svg" alt="icon">
+            <div class="modal-header d-flex flex-row justify-content-between">
+              <img src="./imgs/icons/Domestic Violence.svg" alt="icon" class="align-self-center">
+              <h4 class="modal-title align-self-center text-center flex-grow-1">
                 <?php echo $h3 ?>
               </h4>
               <button type="button" class="close" data-dismiss="modal">
-                <img src="./imgs/rights/close.svg" alt="">
+                <img src="./imgs/rights/close.svg" alt="close_icon" style="margin-right: 0;">
               </button>
             </div>
             
@@ -165,8 +175,7 @@
             
             <!-- Modal footer -->
             <div class="modal-footer">
-              <button type="button" class="btn btn-warning share" style="font-weight: bold;">
-              <img src="./imgs/rights/share.svg" alt="" style="width: 20px;">Share</button>
+              <div class="addthis_inline_share_toolbox share"></div>
             </div>
             
           </div>
@@ -190,13 +199,13 @@
           <div class="modal-content">
           
             <!-- Modal Header -->
-            <div class="modal-header">
-              <h4 class="modal-title">
-                <img src="./imgs/icons/Sati.svg" alt="icon">
+            <div class="modal-header d-flex flex-row justify-content-between">
+              <img src="./imgs/icons/Sati.svg" alt="icon" class="align-self-center">
+              <h4 class="modal-title align-self-center text-center flex-grow-1">
                 <?php echo $h4 ?>
               </h4>
               <button type="button" class="close" data-dismiss="modal">
-                <img src="./imgs/rights/close.svg" alt="">
+                <img src="./imgs/rights/close.svg" alt="close_icon" style="margin-right: 0;">
               </button>
             </div>
             
@@ -207,8 +216,7 @@
             
             <!-- Modal footer -->
             <div class="modal-footer">
-              <button type="button" class="btn btn-warning share" style="font-weight: bold;">
-              <img src="./imgs/rights/share.svg" alt="" style="width: 20px;">Share</button>
+              <div class="addthis_inline_share_toolbox share"></div>
             </div>
             
           </div>
@@ -231,13 +239,13 @@
           <div class="modal-content">
           
             <!-- Modal Header -->
-            <div class="modal-header">
-              <h4 class="modal-title">
-                <img src="./imgs/icons/Child Maraige.svg" alt="icon">
+            <div class="modal-header d-flex flex-row justify-content-between">
+              <img src="./imgs/icons/Child Maraige.svg" alt="icon" class="align-self-center">
+              <h4 class="modal-title align-self-center text-center flex-grow-1">
                 <?php echo $h5 ?>
               </h4>
               <button type="button" class="close" data-dismiss="modal">
-                <img src="./imgs/rights/close.svg" alt="">
+                <img src="./imgs/rights/close.svg" alt="close_icon" style="margin-right: 0;">
               </button>
             </div>
             
@@ -248,8 +256,7 @@
             
             <!-- Modal footer -->
             <div class="modal-footer">
-              <button type="button" class="btn btn-warning share" style="font-weight: bold;">
-              <img src="./imgs/rights/share.svg" alt="" style="width: 20px;">Share</button>
+              <div class="addthis_inline_share_toolbox share"></div>
             </div>
             
           </div>
@@ -273,13 +280,13 @@
           <div class="modal-content">
           
             <!-- Modal Header -->
-            <div class="modal-header">
-              <h4 class="modal-title">
-                <img src="./imgs/icons/male child.svg" alt="icon">
+            <div class="modal-header d-flex flex-row justify-content-between">
+              <img src="./imgs/icons/male child.svg" alt="icon" class="align-self-center">
+              <h4 class="modal-title align-self-center text-center flex-grow-1">
                 <?php echo $h6 ?>
               </h4>
               <button type="button" class="close" data-dismiss="modal">
-                <img src="./imgs/rights/close.svg" alt="">
+                <img src="./imgs/rights/close.svg" alt="close_icon" style="margin-right: 0;">
               </button>
             </div>
             
@@ -290,8 +297,7 @@
             
             <!-- Modal footer -->
             <div class="modal-footer">
-              <button type="button" class="btn btn-warning share" style="font-weight: bold;">
-              <img src="./imgs/rights/share.svg" alt="" style="width: 20px;">Share</button>
+              <div class="addthis_inline_share_toolbox share"></div>
             </div>
             
           </div>
@@ -315,13 +321,13 @@
           <div class="modal-content">
           
             <!-- Modal Header -->
-            <div class="modal-header">
-              <h4 class="modal-title">
-                <img src="./imgs/icons/Infanticide.svg" alt="icon">
+            <div class="modal-header d-flex flex-row justify-content-between">
+              <img src="./imgs/icons/Infanticide.svg" alt="icon" class="align-self-center">
+              <h4 class="modal-title align-self-center text-center flex-grow-1">
                 <?php echo $h7 ?>
               </h4>
               <button type="button" class="close" data-dismiss="modal">
-                <img src="./imgs/rights/close.svg" alt="">
+                <img src="./imgs/rights/close.svg" alt="close_icon" style="margin-right: 0;">
               </button>
             </div>
             
@@ -332,8 +338,7 @@
             
             <!-- Modal footer -->
             <div class="modal-footer">
-              <button type="button" class="btn btn-warning share" style="font-weight: bold;">
-              <img src="./imgs/rights/share.svg" alt="" style="width: 20px;">Share</button>
+              <div class="addthis_inline_share_toolbox share"></div>
             </div>
             
           </div>
@@ -357,13 +362,13 @@
           <div class="modal-content">
           
             <!-- Modal Header -->
-            <div class="modal-header">
-              <h4 class="modal-title">
-                <img src="./imgs/icons/Education.svg" alt="icon">
+            <div class="modal-header d-flex flex-row justify-content-between">
+              <img src="./imgs/icons/Education.svg" alt="icon" class="align-self-center">
+              <h4 class="modal-title align-self-center text-center flex-grow-1">
                 <?php echo $h8 ?>
               </h4>
               <button type="button" class="close" data-dismiss="modal">
-                <img src="./imgs/rights/close.svg" alt="">
+                <img src="./imgs/rights/close.svg" alt="close_icon" style="margin-right: 0;">
               </button>
             </div>
             
@@ -374,8 +379,7 @@
             
             <!-- Modal footer -->
             <div class="modal-footer">
-              <button type="button" class="btn btn-warning share" style="font-weight: bold;">
-              <img src="./imgs/rights/share.svg" alt="" style="width: 20px;">Share</button>
+              <div class="addthis_inline_share_toolbox share"></div>
             </div>
             
           </div>
@@ -399,13 +403,13 @@
           <div class="modal-content">
           
             <!-- Modal Header -->
-            <div class="modal-header">
-              <h4 class="modal-title">
-                <img src="./imgs/icons/Exclusion.svg" alt="icon">
+            <div class="modal-header d-flex flex-row justify-content-between">
+              <img src="./imgs/icons/Exclusion.svg" alt="icon" class="align-self-center">
+              <h4 class="modal-title align-self-center text-center flex-grow-1">
                 <?php echo $h9 ?>
               </h4>
               <button type="button" class="close" data-dismiss="modal">
-                <img src="./imgs/rights/close.svg" alt="">
+                <img src="./imgs/rights/close.svg" alt="close_icon" style="margin-right: 0;">
               </button>
             </div>
             
@@ -416,8 +420,7 @@
             
             <!-- Modal footer -->
             <div class="modal-footer">
-              <button type="button" class="btn btn-warning share" style="font-weight: bold;">
-              <img src="./imgs/rights/share.svg" alt="" style="width: 20px;">Share</button>
+              <div class="addthis_inline_share_toolbox share"></div>
             </div>
             
           </div>
@@ -441,13 +444,13 @@
           <div class="modal-content">
           
             <!-- Modal Header -->
-            <div class="modal-header">
-              <h4 class="modal-title">
-                <img src="./imgs/icons/Harrasment at work.svg" alt="icon">
+            <div class="modal-header d-flex flex-row justify-content-between">
+              <img src="./imgs/icons/Harrasment at work.svg" alt="icon" class="align-self-center">
+              <h4 class="modal-title align-self-center text-center flex-grow-1">
                 <?php echo $h10 ?>
               </h4>
               <button type="button" class="close" data-dismiss="modal">
-                <img src="./imgs/rights/close.svg" alt="">
+                <img src="./imgs/rights/close.svg" alt="close_icon" style="margin-right: 0;">
               </button>
             </div>
             
@@ -458,8 +461,7 @@
             
             <!-- Modal footer -->
             <div class="modal-footer">
-              <button type="button" class="btn btn-warning share" style="font-weight: bold;">
-              <img src="./imgs/rights/share.svg" alt="" style="width: 20px;">Share</button>
+              <div class="addthis_inline_share_toolbox share"></div>
             </div>
             
           </div>
@@ -483,13 +485,13 @@
           <div class="modal-content">
           
             <!-- Modal Header -->
-            <div class="modal-header">
-              <h4 class="modal-title">
-                <img src="./imgs/icons/Rape.svg" alt="icon">
+            <div class="modal-header d-flex flex-row justify-content-between">
+              <img src="./imgs/icons/Rape.svg" alt="icon" class="align-self-center">
+              <h4 class="modal-title align-self-center text-center flex-grow-1">
                 <?php echo $h11 ?>
               </h4>
               <button type="button" class="close" data-dismiss="modal">
-                <img src="./imgs/rights/close.svg" alt="">
+                <img src="./imgs/rights/close.svg" alt="close_icon" style="margin-right: 0;">
               </button>
             </div>
             
@@ -500,8 +502,7 @@
             
             <!-- Modal footer -->
             <div class="modal-footer">
-              <button type="button" class="btn btn-warning share" style="font-weight: bold;">
-              <img src="./imgs/rights/share.svg" alt="" style="width: 20px;">Share</button>
+              <div class="addthis_inline_share_toolbox share"></div>
             </div>
             
           </div>
@@ -525,13 +526,13 @@
           <div class="modal-content">
           
             <!-- Modal Header -->
-            <div class="modal-header">
-              <h4 class="modal-title">
-                <img src="./imgs/icons/society.svg" alt="icon">
+            <div class="modal-header d-flex flex-row justify-content-between">
+              <img src="./imgs/icons/society.svg" alt="icon" class="align-self-center">
+              <h4 class="modal-title align-self-center text-center flex-grow-1">
                 <?php echo $h12 ?>
               </h4>
               <button type="button" class="close" data-dismiss="modal">
-                <img src="./imgs/rights/close.svg" alt="">
+                <img src="./imgs/rights/close.svg" alt="close_icon" style="margin-right: 0;">
               </button>
             </div>
             
@@ -542,8 +543,7 @@
             
             <!-- Modal footer -->
             <div class="modal-footer">
-              <button type="button" class="btn btn-warning share" style="font-weight: bold;">
-              <img src="./imgs/rights/share.svg" alt="" style="width: 20px;">Share</button>
+              <div class="addthis_inline_share_toolbox share"></div>
             </div>
             
           </div>
@@ -567,13 +567,13 @@
           <div class="modal-content">
           
             <!-- Modal Header -->
-            <div class="modal-header">
-              <h4 class="modal-title">
-                <img src="./imgs/icons/woman empowerment.svg" alt="icon">
+            <div class="modal-header d-flex flex-row justify-content-between">
+              <img src="./imgs/icons/woman empowerment.svg" alt="icon" class="align-self-center">
+              <h4 class="modal-title align-self-center text-center flex-grow-1">
                 <?php echo $h13 ?>
               </h4>
               <button type="button" class="close" data-dismiss="modal">
-                <img src="./imgs/rights/close.svg" alt="">
+                <img src="./imgs/rights/close.svg" alt="close_icon" style="margin-right: 0;">
               </button>
             </div>
             
@@ -584,8 +584,7 @@
             
             <!-- Modal footer -->
             <div class="modal-footer">
-              <button type="button" class="btn btn-warning share" style="font-weight: bold;">
-              <img src="./imgs/rights/share.svg" alt="" style="width: 20px;">Share</button>
+              <div class="addthis_inline_share_toolbox share"></div>
             </div>
             
           </div>
@@ -609,13 +608,13 @@
           <div class="modal-content">
           
             <!-- Modal Header -->
-            <div class="modal-header">
-              <h4 class="modal-title">
-                <img src="./imgs/icons/Fundamental Rights.svg" alt="icon">
+            <div class="modal-header d-flex flex-row justify-content-between">
+              <img src="./imgs/icons/Fundamental Rights.svg" alt="icon" class="align-self-center">
+              <h4 class="modal-title align-self-center text-center flex-grow-1">
                 <?php echo $h14 ?>
               </h4>
               <button type="button" class="close" data-dismiss="modal">
-                <img src="./imgs/rights/close.svg" alt="">
+                <img src="./imgs/rights/close.svg" alt="close_icon" style="margin-right: 0;">
               </button>
             </div>
             
@@ -626,8 +625,7 @@
             
             <!-- Modal footer -->
             <div class="modal-footer">
-              <button type="button" class="btn btn-warning share" style="font-weight: bold;">
-              <img src="./imgs/rights/share.svg" alt="" style="width: 20px;">Share</button>
+              <div class="addthis_inline_share_toolbox share"></div>
             </div>
             
           </div>
@@ -651,13 +649,13 @@
           <div class="modal-content">
           
             <!-- Modal Header -->
-            <div class="modal-header">
-              <h4 class="modal-title">
-                <img src="./imgs/icons/work.svg" alt="icon">
+            <div class="modal-header d-flex flex-row justify-content-between">
+              <img src="./imgs/icons/work.svg" alt="icon" class="align-self-center">
+              <h4 class="modal-title align-self-center text-center flex-grow-1">
                 <?php echo $h15 ?>
               </h4>
               <button type="button" class="close" data-dismiss="modal">
-                <img src="./imgs/rights/close.svg" alt="">
+                <img src="./imgs/rights/close.svg" alt="close_icon" style="margin-right: 0;">
               </button>
             </div>
             
@@ -668,8 +666,7 @@
             
             <!-- Modal footer -->
             <div class="modal-footer">
-              <button type="button" class="btn btn-warning share" style="font-weight: bold;">
-              <img src="./imgs/rights/share.svg" alt="" style="width: 20px;">Share</button>
+              <div class="addthis_inline_share_toolbox share"></div>
             </div>
             
           </div>
@@ -728,5 +725,8 @@
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
   <!-- js bs -->
   <script src="./js/bootstrap.min.js"></script>
+  <!-- Share button script -->
+  <!-- Go to www.addthis.com/dashboard to customize your tools -->
+  <script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5a0b23f3c3111fc7"></script>
 </body>
 </html>

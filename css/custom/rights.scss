@@ -82,10 +82,26 @@ body{
 }
 
 @include mobile(){
-    .wr-sec1 .wr-sec1-col1-con{
-        margin-left: 0 !important;
-        width: auto !important;
+    .wr-sec1{
+        background-image: none;
+        background-color: $yellow;
+        
+        .wr-sec1-col1-con{
+            margin-left: 0 !important;
+            width: auto !important;
+            padding: 210px 15px !important;
+        }
+
     }
+}
+
+@include tab-pro(){
+        
+    .wr-sec1-col1-con{
+        width: 470px !important;
+        padding: 182px 63px 322px 33px !important;   
+    }
+
 }
 
 
@@ -136,9 +152,8 @@ body{
         .modal-footer{
             border-top: 0px !important;
             .share{
-                margin: 1rem 1.2rem 1rem auto;
-                background-color: $yellow !important;
-                padding: 8px 26px;
+                margin: 1rem 1rem 1rem auto;
+                // padding: 8px 26px;
                 img{
                     margin-right: 5px;
                 }
@@ -147,12 +162,12 @@ body{
         .modal-header{
             border-bottom: 0px !important;
         }
+        img{
+            width: 70px;
+            margin-right: 20px;
+        }
         .modal-title{
             border-bottom: 0;
-            img{
-                width: 70px;
-                margin-right: 20px;
-            }
         }
         .close{
             margin: 0rem 0rem 0rem auto !important;
