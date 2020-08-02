@@ -204,3 +204,36 @@ body .wr-sec2, body .wr-sec3 {
   margin: auto;
   z-index: 99999;
 }
+
+.privacy-container {
+  background-image: linear-gradient(146.5deg, rgba(255, 236, 107, 0.5) 0%, #FFE74B 81.77%);
+  color: #121212;
+  margin-top: 56px;
+  padding: 40px 20px;
+}
+
+.privacy-container .jumbotron {
+  background-image: linear-gradient(141.13deg, rgba(92, 125, 255, 0.5) 0%, #2E58FF 76.56%);
+  color: #fff;
+}
+
+.privacy-container h1, .privacy-container h2, .privacy-container p {
+  padding: 0px 15px;
+}
+
+.privacy-container ul {
+  list-style: disc;
+  padding: 0px 50px;
+}
+
+.privacy-container .wr-footer a {
+  color: #335CFF;
+}
+
+.privacy-container .wr-footer h4 {
+  color: #000;
+}
+
+.privacy-container .wr-footer hr {
+  border-top: 2px solid #335CFF;
+}

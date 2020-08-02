@@ -1,0 +1,3 @@
+credit page | Pending
+Error Page | Pending(over hosting)
+contact functionality | still pending | try using emailjs

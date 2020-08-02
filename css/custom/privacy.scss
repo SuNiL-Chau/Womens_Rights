@@ -1,0 +1,39 @@
+@import "./wr-css.scss";
+
+$yellow-2: linear-gradient(146.5deg, rgba(255, 236, 107, 0.5) 0%, #FFE74B 81.77%);
+
+.privacy-container{
+    background-image: $yellow-2;
+    color: #121212;
+    margin-top: 56px;
+    padding: 40px 20px;
+
+    .jumbotron{
+        background-image: $blue-3;
+        color: $white;
+    }
+
+    h1, h2, p{
+        padding: 0px 15px;
+    }
+
+    ul{
+        list-style: disc;
+        padding: 0px 50px;
+    }
+
+    .wr-footer{
+        a{
+            color: $blue-2;
+        }
+
+        h4{
+            color: $black;
+        }
+
+        hr{
+            border-top: 2px solid $blue-2;
+        }
+    }
+
+}

@@ -23,10 +23,3 @@ var preloader = document.getElementById("loading");
 function myFunction() {
     preloader.style.display = 'none';
 };
-
-
-
-document.getElementById('wr-rights-page').onclick = function() {
-    location.href = './rights.php';
-};
-

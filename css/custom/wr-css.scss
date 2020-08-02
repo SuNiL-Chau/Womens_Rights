@@ -86,10 +86,11 @@ body{
         }
     
         .wr-sec1-col3{
-            button{
-                margin-top: 20px;
-            }
+            // button{
+            //     margin-top: 20px;
+            // }
             .wr-outline-btn{
+                margin-top: 20px;
                 border: 2px solid $yellow;
                 background-color: none;
                 color: $yellow;

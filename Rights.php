@@ -22,7 +22,7 @@
 
   <nav class="navbar navbar-expand-md wr-nav navbar-dark fixed-top">
     <!-- Brand -->
-    <a class="navbar-brand" href="#">WOMEN'S RIGHTS</a>
+    <a class="navbar-brand" href="index.html">WOMEN'S RIGHTS</a>
   
     <!-- Toggler/collapsibe Button -->
     <button class="navbar-toggler" aria-label="wr-nav-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
@@ -144,7 +144,7 @@
 
       <!-- 3 -->
       <div class="wr-card card text-center text-body">
-        <img class="card-img-top mx-auto img-fluid" src="./imgs/icons/Domestic Violence.svg" alt="card3-image">
+        <img class="card-img-top mx-auto img-fluid" src="./imgs/icons/Domestic_violence.svg" alt="card3-image">
         <hr class="mx-auto">
         <div class="card-body">
           <h4 class="card-title"><?php echo $h3 ?></h4>
@@ -159,7 +159,7 @@
           
             <!-- Modal Header -->
             <div class="modal-header d-flex flex-row justify-content-between">
-              <img src="./imgs/icons/Domestic Violence.svg" alt="icon" class="align-self-center">
+              <img src="./imgs/icons/Domestic_violence.svg" alt="icon" class="align-self-center">
               <h4 class="modal-title align-self-center text-center flex-grow-1">
                 <?php echo $h3 ?>
               </h4>
@@ -686,7 +686,7 @@
       <div class="col-sm-12 col-md-6 col-lg-6 wr-col2-hl align-self-center">
         <div class="container text-body">
           <h2>Helpline Numbers (India)</h2>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus culpa beatae aperiam atque, nihil at natus fugit architecto quaerat odit nisi dignissimos fuga praesentium ullam iste vero distinctio ut harum?</p>
+          <p>Below are some of the helpline number which a women should always have with her incase of emegency. Go ahead and have a note of the following number in your mobile contact and share it with your other friends and family members.<br><br><strong>Note:</strong> These numbers are for people of India and have taken from internet incase any of the numbers are not working or wrong please <a href="./index.html#contact">Contact us</a> so we could update it.</p>
           <ul class="wr-help-tel">
             <li>Women Helpline: 1091</li>
             <li>Women Helpline(Domestic Abuse): 181</li>
@@ -709,9 +709,18 @@
     </div>
     <hr class="mx-auto">
     <div class="wr-foot-col2 d-flex flex-wrap justify-content-center">
-      <a href="#" class="m-4"><img src="./imgs/linkedin.svg" alt="whatsapp" class="img-fluid" style="width: 40px;"></a>
-      <a href="#" class="m-4"><img src="./imgs/whatsapp.svg" alt="instagram" class="img-fluid" style="width: 40px;"></a>
-      <a href="#" class="m-4"><img src="./imgs/youtube.svg" alt="linkedin" class="img-fluid" style="width: 40px;"></a>
+      <a href="https://www.linkedin.com/in/sunil-c-b2a815136/" target="_blank" class="m-4">
+        <img src="./imgs/linkedin.svg" alt="linkedin" class="img-fluid" style="width: 40px;">
+      </a>
+      <a href="https://instagram.com/_sunil_ig_" target="_blank" class="m-4">
+        <img src="./imgs/instagram.svg" alt="instagram" class="img-fluid" style="width: 40px;">
+      </a>
+      <a href="https://wa.link/tzre2c" target="_blank" class="m-4">
+        <img src="./imgs/whatsapp.svg" alt="whatsapp" class="img-fluid" style="width: 40px;">
+      </a>
+      <a href="https://www.youtube.com/channel/UCmCGbzoguXQH3mVRVA6cSDA" target="_blank" class="m-4">
+        <img src="./imgs/youtube.svg" alt="youtube" class="img-fluid" style="width: 40px;">
+      </a>
     </div>
     <div class="wr-foot-col3 d-flex flex-wrap justify-content-center">
       <p>&#169; 2020 <a href="./privacy.html">Privacy Policy</a></p>
